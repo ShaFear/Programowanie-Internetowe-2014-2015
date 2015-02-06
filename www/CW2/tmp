@@ -1,0 +1,8 @@
+            var sex;
+            if (boyElement.checked == true) sex = "mężczyzna"; else sex = "kobieta";
+            var text = '{"firstname / lastname":"' + nameElement.value + " " + surnameElement.value + '","password":"' + pass1Element.value +
+                '","birthdate":"' + dateElement.value +
+                '","login":"' + loginElement.value +
+                '","pesel":"' + peselElement.value +
+                '","sex":"' + sex + '"}'
+            var obj = JSON.parse(text);

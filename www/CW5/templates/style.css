@@ -1,0 +1,202 @@
+body {
+    width: 100%;
+    background-color: #383838;
+    max-width: 600px;
+    background-image: url("../../bg.png");
+}
+
+.note h2 {
+    text-align: justify;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #bababa;
+}
+
+.logout {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.menu {
+    height: 32px;
+    border: 2px solid #bababa;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+    background-color: rgba(70, 69, 20, 0.73);
+}
+
+.nmenu {
+    height: 96px;
+    border: 2px solid #bababa;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+    background-color: rgba(70, 69, 20, 0.73);
+}
+
+.newnote a{
+    color: #bababa;
+}
+
+.newnote {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.blank {
+    height: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bab936;
+    background-color: rgba(51, 91, 107, 0.68);
+    border: 2px solid #bababa;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.note p {
+    text-align: justify;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #bababa;
+}
+
+
+.note p {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bababa;
+    background-color: rgba(43, 39, 42, 0.68);
+    border: 2px solid #bababa;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+    text-align: justify;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #bababa;
+}
+
+
+ p {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bababa;
+    background-color: rgba(43, 39, 42, 0.68);
+    border: 2px solid #bababa;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.label {
+    width: 400px;
+    height: 30px;
+    text-align: justify;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #bababa;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+ .label {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bababa;
+    background-color: rgba(43, 39, 42, 0.68);
+    border: 2px solid #bababa;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ label {
+    width: 400px;
+    height: 30px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 48px;
+    color: #bababa;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+ label {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bababa;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.note a {
+    text-align: left;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #bababa;
+}
+
+.delete{
+    height: 50px;
+}
+
+.note {
+    border: 2px solid #bababa;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+    background-color: rgba(38, 70, 59, 0.73);
+}
+
+.readmail {
+    border: 2px solid #bababa;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+    background-color: rgba(38, 70, 59, 0.73);
+}
+
+.log{
+    margin-left: 30px;
+}
+
+#submitlog {
+    margin-left: 80%;
+}
+
+.login {
+    border: 2px solid #bababa;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+    background-color: rgba(38, 70, 59, 0.73);
+}
+
+.newnote2 {
+    width: 420px;
+    border: 2px solid #bababa;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+    background-color: rgba(38, 70, 59, 0.73);
+}
+
+.newnote {
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+.delete {
+    margin-top: 5px;
+}

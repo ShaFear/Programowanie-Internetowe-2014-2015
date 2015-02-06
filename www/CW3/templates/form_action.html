@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>"Ćwiczenie 3"</title>
+    <link rel="stylesheet" href="http://len.iem.pw.edu.pl/~jereczem/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="menu">
+    <h2><a href="http://len.iem.pw.edu.pl/~jereczem/index.html">Strona główna</a></h2>
+</div>
+
+<div class="basic">
+    <h2>Zalogowany</h2>
+    <h3>Login: {{login}}</h3>
+    <h3>Ostatnie poprawne logowanie: {{lastdate}}</h3>
+
+    <h3><form method="post" action="{{ url_for('logout') }}">
+	<input type=submit value = "wyloguj się">
+    </form></h3>	
+
+</div>
+<div class="menu">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>"Ćwiczenie 3"</title>
+    <link rel="stylesheet" href="http://len.iem.pw.edu.pl/~jereczem/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="menu">
+    <h2><a href="http://len.iem.pw.edu.pl/~jereczem/index.html">Strona główna</a></h2>
+</div>
+
+<div class="basic">
+    <h1>Logowanie</h1>
+
+    <form method="post" action="{{ url_for('logged') }}">
+        <h3>
+	<label for="login">Login:</label>
+        <input type="text" name="login"/><br/>
+        <label for="password">Hasło:</label>
+        <input type="password" name="password"/><br/>
+        <input type="submit"/></h3>
+        (l: admin, h: admin lub l: chaberb, h: piesel)
+    </form>
+</div>
+</body>
+</html>
+ 

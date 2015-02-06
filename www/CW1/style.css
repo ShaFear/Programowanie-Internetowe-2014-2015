@@ -1,0 +1,101 @@
+body {
+    background-color: #2b2b2b;
+    width: 100%;
+
+}
+
+p {
+    text-align: justify;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #bababa;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #bababa;
+}
+
+.basic a {
+    text-decoration: none;
+    color: #bababa;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #bababa;
+    background-color: #313335;
+    border: 2px solid #bababa;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #bababa;
+    background-color: #313335;
+    border: 2px solid #bababa;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #bababa;
+}
+
+.menu {
+    background-color: #3c3f41;
+    width: 252px;
+    margin-right: 1024px;
+    position: fixed;
+    border: 2px solid #58564e;
+}
+
+.omnie {
+    background-color: #3c3f41;
+    width: 252px;
+    margin-left: 1028px;
+    position: fixed;
+    border: 2px solid #58564e;
+}
+
+.basic {
+    text-align: center;
+    background-color: #3c3f41;
+    width: 760px;
+    margin-right: 256px;
+    margin-left: 260px;
+    margin-bottom: 8px;
+    position: absolute;
+    border: 2px solid #58564e;
+}
+
+.basic table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #bababa;
+    border: 2px solid #58564e;
+}
+
+.basic input {
+    max-width: 80%;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #bababa;
+    background-color: #595c5e;
+    font-family: 'Berkshire Swash', Helvetica, Sans-serif;
+}
+
+.basic img {
+    width: 100%;
+}
+
+.basic object {
+    width: 90%;
+    height: 400px;
+}

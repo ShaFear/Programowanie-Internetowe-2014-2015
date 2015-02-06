@@ -1,0 +1,464 @@
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Sun Nov 23 23:44:06 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1898130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1898130 pid: 2453 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2453)
+spawned uWSGI worker 1 (pid: 2458, cores: 4)
+[pid: 2458|app: 0|req: 1/1] 83.9.140.85 () {40 vars in 787 bytes} [Sun Nov 23 23:44:12 2014] GET /~jereczem/apps/CW3/ => generated 870 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 2458|app: 0|req: 2/2] 83.9.140.85 () {40 vars in 787 bytes} [Sun Nov 23 23:45:17 2014] GET /~jereczem/apps/CW3/ => generated 870 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 2458|app: 0|req: 3/3] 83.9.140.85 () {40 vars in 787 bytes} [Sun Nov 23 23:45:35 2014] GET /~jereczem/apps/CW3/ => generated 870 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 2458|app: 0|req: 4/4] 83.9.140.85 () {48 vars in 1009 bytes} [Sun Nov 23 23:45:53 2014] POST /~jereczem/apps/CW3/logged/ => generated 542 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Sun Nov 23 23:52:13 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1b4c130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+Traceback (most recent call last):
+  File "app.py", line 4, in <module>
+    import os, date
+ImportError: No module named date
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3828)
+spawned uWSGI worker 1 (pid: 3833, cores: 4)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Sun Nov 23 23:52:53 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x223b130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x223b130 pid: 4234 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4234)
+spawned uWSGI worker 1 (pid: 4387, cores: 4)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Sun Nov 23 23:53:47 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1aec130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1aec130 pid: 4589 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4589)
+spawned uWSGI worker 1 (pid: 4594, cores: 4)
+[pid: 4594|app: 0|req: 1/1] 83.9.140.85 () {42 vars in 853 bytes} [Sun Nov 23 23:53:50 2014] GET /~jereczem/apps/CW3/ => generated 870 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 4594|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1014 bytes} [Sun Nov 23 23:53:55 2014] POST /~jereczem/apps/CW3/logged/ => generated 589 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 2)
+[pid: 4594|app: 0|req: 3/3] 83.9.140.85 () {42 vars in 910 bytes} [Sun Nov 23 23:54:04 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 1)
+[pid: 4594|app: 0|req: 4/4] 83.9.140.85 () {40 vars in 879 bytes} [Sun Nov 23 23:54:10 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 3)
+[pid: 4594|app: 0|req: 5/5] 83.9.140.85 () {42 vars in 910 bytes} [Sun Nov 23 23:54:14 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 0)
+[pid: 4594|app: 0|req: 6/6] 83.9.140.85 () {42 vars in 910 bytes} [Sun Nov 23 23:54:15 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 2)
+[pid: 4594|app: 0|req: 7/7] 83.9.140.85 () {40 vars in 879 bytes} [Sun Nov 23 23:54:17 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 1)
+[pid: 4594|app: 0|req: 8/8] 83.9.140.85 () {42 vars in 910 bytes} [Sun Nov 23 23:54:18 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 3)
+[pid: 4594|app: 0|req: 9/9] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:54:26 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 0)
+[pid: 4594|app: 0|req: 10/10] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:54:29 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 2)
+[pid: 4594|app: 0|req: 11/11] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:54:31 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 1)
+[pid: 4594|app: 0|req: 12/12] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:54:31 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 3)
+[pid: 4594|app: 0|req: 13/13] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:54:32 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 0)
+[pid: 4594|app: 0|req: 14/14] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:55:10 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 2)
+[pid: 4594|app: 0|req: 15/15] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:55:12 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 1)
+[pid: 4594|app: 0|req: 16/16] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:55:13 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 3)
+[pid: 4594|app: 0|req: 17/17] 83.9.140.85 () {40 vars in 849 bytes} [Sun Nov 23 23:55:13 2014] GET /~jereczem/apps/CW3/ => generated 609 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 259 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:02:16 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x899130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x899130 pid: 5962 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5962)
+spawned uWSGI worker 1 (pid: 5967, cores: 4)
+[pid: 5967|app: 0|req: 1/1] 83.9.140.85 () {48 vars in 1071 bytes} [Mon Nov 24 00:02:20 2014] POST /~jereczem/apps/CW3/logged/ => generated 64 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 0 bytes (0 switches on core 0)
+[pid: 5967|app: 0|req: 2/2] 83.9.140.85 () {38 vars in 818 bytes} [Mon Nov 24 00:02:30 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 5967|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1071 bytes} [Mon Nov 24 00:02:32 2014] POST /~jereczem/apps/CW3/logged/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 254 bytes (1 switches on core 3)
+[pid: 5967|app: 0|req: 4/4] 83.9.140.85 () {48 vars in 1073 bytes} [Mon Nov 24 00:02:37 2014] POST /~jereczem/apps/CW3/logged/ => generated 64 bytes in 6 msecs (HTTP/1.1 500) 1 headers in 0 bytes (0 switches on core 2)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:05:21 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1c3f130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1c3f130 pid: 6432 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6432)
+spawned uWSGI worker 1 (pid: 6437, cores: 4)
+[pid: 6437|app: 0|req: 1/1] 83.9.140.85 () {48 vars in 1073 bytes} [Mon Nov 24 00:05:25 2014] POST /~jereczem/apps/CW3/logged/ => generated 721 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 0)
+[pid: 6437|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1083 bytes} [Mon Nov 24 00:05:27 2014] POST /~jereczem/apps/CW3/logout/ => generated 4 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 264 bytes (1 switches on core 1)
+[pid: 6437|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1085 bytes} [Mon Nov 24 00:05:34 2014] POST /~jereczem/apps/CW3/logged/ => generated 721 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 265 bytes (1 switches on core 2)
+[pid: 6437|app: 0|req: 4/4] 83.9.140.85 () {40 vars in 885 bytes} [Mon Nov 24 00:05:36 2014] GET /~jereczem/apps/CW3/ => generated 741 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 265 bytes (1 switches on core 3)
+[pid: 6437|app: 0|req: 5/5] 83.9.140.85 () {40 vars in 885 bytes} [Mon Nov 24 00:05:45 2014] GET /~jereczem/apps/CW3/ => generated 741 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 265 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:06:32 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x2028130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x2028130 pid: 6484 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6484)
+spawned uWSGI worker 1 (pid: 6489, cores: 4)
+[pid: 6489|app: 0|req: 1/1] 83.9.140.85 () {42 vars in 916 bytes} [Mon Nov 24 00:06:34 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6489|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1077 bytes} [Mon Nov 24 00:06:39 2014] POST /~jereczem/apps/CW3/logged/ => generated 721 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 3)
+[pid: 6489|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1083 bytes} [Mon Nov 24 00:06:42 2014] POST /~jereczem/apps/CW3/logout/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 2)
+[pid: 6489|app: 0|req: 4/4] 83.9.140.85 () {48 vars in 1085 bytes} [Mon Nov 24 00:06:59 2014] POST /~jereczem/apps/CW3/logged/ => generated 721 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 1)
+[pid: 6489|app: 0|req: 5/5] 83.9.140.85 () {40 vars in 886 bytes} [Mon Nov 24 00:07:02 2014] GET /~jereczem/apps/CW3/ => generated 741 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 0)
+[pid: 6489|app: 0|req: 6/6] 83.9.140.85 () {48 vars in 1076 bytes} [Mon Nov 24 00:07:05 2014] POST /~jereczem/apps/CW3/logout/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 3)
+[pid: 6489|app: 0|req: 7/7] 83.9.140.85 () {48 vars in 1085 bytes} [Mon Nov 24 00:07:09 2014] POST /~jereczem/apps/CW3/logged/ => generated 721 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 2)
+[pid: 6489|app: 0|req: 8/8] 83.9.140.85 () {40 vars in 886 bytes} [Mon Nov 24 00:07:12 2014] GET /~jereczem/apps/CW3/ => generated 741 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 1)
+[pid: 6489|app: 0|req: 9/9] 83.9.140.85 () {48 vars in 1076 bytes} [Mon Nov 24 00:07:13 2014] POST /~jereczem/apps/CW3/logout/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 0)
+[pid: 6489|app: 0|req: 10/10] 83.9.140.85 () {38 vars in 825 bytes} [Mon Nov 24 00:07:17 2014] GET /~jereczem/apps/CW3/ => generated 741 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 3)
+[pid: 6489|app: 0|req: 11/11] 83.9.140.85 () {48 vars in 1076 bytes} [Mon Nov 24 00:07:25 2014] POST /~jereczem/apps/CW3/logout/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 2)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:07:44 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1d67130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1d67130 pid: 6518 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6518)
+spawned uWSGI worker 1 (pid: 6523, cores: 4)
+[pid: 6523|app: 0|req: 1/1] 83.9.140.85 () {38 vars in 825 bytes} [Mon Nov 24 00:07:48 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 6523|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1078 bytes} [Mon Nov 24 00:07:51 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 1)
+[pid: 6523|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1069 bytes} [Mon Nov 24 00:07:53 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 3)
+[pid: 6523|app: 0|req: 4/4] 83.9.140.85 () {40 vars in 886 bytes} [Mon Nov 24 00:07:56 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 2)
+[pid: 6523|app: 0|req: 5/5] 83.9.140.85 () {48 vars in 1062 bytes} [Mon Nov 24 00:07:57 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 0)
+[pid: 6523|app: 0|req: 6/6] 83.9.140.85 () {48 vars in 1078 bytes} [Mon Nov 24 00:08:01 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 265 bytes (1 switches on core 1)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:09:56 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x22df130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x22df130 pid: 6584 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6584)
+spawned uWSGI worker 1 (pid: 6589, cores: 4)
+[pid: 6589|app: 0|req: 1/1] 83.9.140.85 () {48 vars in 1077 bytes} [Mon Nov 24 00:09:59 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 0)
+[pid: 6589|app: 0|req: 2/2] 83.9.140.85 () {40 vars in 886 bytes} [Mon Nov 24 00:10:01 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 266 bytes (1 switches on core 1)
+[pid: 6589|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1062 bytes} [Mon Nov 24 00:10:03 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 221 bytes (1 switches on core 2)
+[pid: 6589|app: 0|req: 4/4] 83.9.140.85 () {40 vars in 841 bytes} [Mon Nov 24 00:10:08 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 221 bytes (1 switches on core 3)
+[pid: 6589|app: 0|req: 5/5] 83.9.140.85 () {40 vars in 841 bytes} [Mon Nov 24 00:10:10 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 221 bytes (1 switches on core 0)
+[pid: 6589|app: 0|req: 6/6] 83.9.140.85 () {40 vars in 841 bytes} [Mon Nov 24 00:10:12 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 221 bytes (1 switches on core 1)
+[pid: 6589|app: 0|req: 7/7] 83.9.140.85 () {40 vars in 811 bytes} [Mon Nov 24 00:10:14 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 221 bytes (1 switches on core 2)
+[pid: 6589|app: 0|req: 8/8] 83.9.140.85 () {48 vars in 1033 bytes} [Mon Nov 24 00:10:19 2014] POST /~jereczem/apps/CW3/logged/ => generated 716 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 272 bytes (1 switches on core 3)
+[pid: 6589|app: 0|req: 9/9] 83.9.140.85 () {40 vars in 876 bytes} [Mon Nov 24 00:10:23 2014] GET /~jereczem/apps/CW3/logged/ => generated 178 bytes in 14 msecs (HTTP/1.1 405) 4 headers in 295 bytes (1 switches on core 0)
+[pid: 6589|app: 0|req: 10/10] 83.9.140.85 () {38 vars in 831 bytes} [Mon Nov 24 00:10:26 2014] GET /~jereczem/apps/CW3/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 272 bytes (1 switches on core 1)
+[pid: 6589|app: 0|req: 11/11] 83.9.140.85 () {48 vars in 1068 bytes} [Mon Nov 24 00:10:29 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 221 bytes (1 switches on core 2)
+[pid: 6589|app: 0|req: 12/12] 83.9.140.85 () {48 vars in 1033 bytes} [Mon Nov 24 00:10:33 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 265 bytes (1 switches on core 3)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:25:19 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0xcb9130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0xcb9130 pid: 7927 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7927)
+spawned uWSGI worker 1 (pid: 7932, cores: 4)
+[pid: 7932|app: 0|req: 1/1] 83.9.140.85 () {40 vars in 885 bytes} [Mon Nov 24 00:25:27 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 7932|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1077 bytes} [Mon Nov 24 00:25:31 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 7932|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:25:43 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 2)
+[pid: 7932|app: 0|req: 4/4] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:25:46 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 7932|app: 0|req: 5/5] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:25:55 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 7932|app: 0|req: 6/6] 83.9.140.85 () {38 vars in 716 bytes} [Mon Nov 24 00:25:57 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 7932|app: 0|req: 7/7] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:26:01 2014] POST /~jereczem/apps/CW3/logged/ => generated 714 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 7932|app: 0|req: 8/8] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:26:03 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 7932|app: 0|req: 9/9] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:27:31 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 7932|app: 0|req: 10/10] 83.9.140.85 () {48 vars in 998 bytes} [Mon Nov 24 00:27:33 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:27:37 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1a7b130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1a7b130 pid: 8182 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8182)
+spawned uWSGI worker 1 (pid: 8187, cores: 4)
+[pid: 8187|app: 0|req: 1/1] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:27:43 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 8187|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:27:54 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 8187|app: 0|req: 3/3] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:27:58 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 8187|app: 0|req: 4/4] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:28:06 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 2)
+[pid: 8187|app: 0|req: 5/5] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:28:12 2014] POST /~jereczem/apps/CW3/logged/ => generated 64 bytes in 23 msecs (HTTP/1.1 500) 1 headers in 0 bytes (0 switches on core 0)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:28:56 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1c9d130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1c9d130 pid: 8492 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8492)
+spawned uWSGI worker 1 (pid: 8497, cores: 4)
+[pid: 8497|app: 0|req: 1/1] 83.9.140.85 () {36 vars in 655 bytes} [Mon Nov 24 00:28:59 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 8497|app: 0|req: 2/2] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:29:05 2014] POST /~jereczem/apps/CW3/logged/ => generated 716 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 1)
+[pid: 8497|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1009 bytes} [Mon Nov 24 00:29:10 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 8497|app: 0|req: 4/4] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:29:15 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 2)
+[pid: 8497|app: 0|req: 5/5] 83.9.140.85 () {48 vars in 1009 bytes} [Mon Nov 24 00:29:18 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 8497|app: 0|req: 6/6] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:29:24 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 8497|app: 0|req: 7/7] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:29:27 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 8497|app: 0|req: 8/8] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:32:37 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 8497|app: 0|req: 9/9] 83.9.140.85 () {38 vars in 759 bytes} [Mon Nov 24 00:32:41 2014] GET /~jereczem/apps/CW3 => generated 299 bytes in 18 msecs (HTTP/1.1 301) 4 headers in 275 bytes (1 switches on core 0)
+[pid: 8497|app: 0|req: 10/10] 83.9.140.85 () {38 vars in 761 bytes} [Mon Nov 24 00:32:41 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 8497|app: 0|req: 11/11] 83.9.140.85 () {40 vars in 792 bytes} [Mon Nov 24 00:32:42 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 8497|app: 0|req: 12/12] 83.9.140.85 () {40 vars in 792 bytes} [Mon Nov 24 00:32:43 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 8497|app: 0|req: 13/13] 83.9.140.85 () {40 vars in 792 bytes} [Mon Nov 24 00:32:44 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 8497|app: 0|req: 14/14] 83.9.140.85 () {40 vars in 792 bytes} [Mon Nov 24 00:32:45 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:33:01 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1340130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+Traceback (most recent call last):
+  File "app.py", line 11, in <module>
+    app.permanent_session_lifetime = timedelta(seconds=10)
+NameError: name 'timedelta' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8916)
+spawned uWSGI worker 1 (pid: 8921, cores: 4)
+[pid: 8921|app: -1|req: -1/1] 83.9.140.85 () {40 vars in 792 bytes} [Mon Nov 24 00:33:03 2014] GET /~jereczem/apps/CW3/ => generated 48 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 62 bytes (0 switches on core 0)
+[pid: 8921|app: -1|req: -1/2] 83.9.140.85 () {40 vars in 792 bytes} [Mon Nov 24 00:33:07 2014] GET /~jereczem/apps/CW3/ => generated 0 bytes in 0 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 3)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:36:05 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x6e5130
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x6e5130 pid: 9453 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9453)
+spawned uWSGI worker 1 (pid: 9458, cores: 4)
+[pid: 9458|app: 0|req: 1/1] 83.9.140.85 () {38 vars in 761 bytes} [Mon Nov 24 00:36:20 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 9458|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1014 bytes} [Mon Nov 24 00:36:24 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 9458|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:36:28 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 9458|app: 0|req: 4/4] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:36:29 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 9458|app: 0|req: 5/5] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:36:31 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 9458|app: 0|req: 6/6] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:36:32 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 9458|app: 0|req: 7/7] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:36:33 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 9458|app: 0|req: 8/8] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:36:33 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 9458|app: 0|req: 9/9] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:36:34 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 9458|app: 0|req: 10/10] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:36:35 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 9458|app: 0|req: 11/11] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:36:37 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 9458|app: 0|req: 12/12] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:36:37 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 9458|app: 0|req: 13/13] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:36:46 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 9458|app: 0|req: 14/14] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:36:57 2014] POST /~jereczem/apps/CW3/logged/ => generated 64 bytes in 23 msecs (HTTP/1.1 500) 1 headers in 0 bytes (0 switches on core 2)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:39:47 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x876120
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x876120 pid: 10020 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10020)
+spawned uWSGI worker 1 (pid: 10029, cores: 4)
+[pid: 10029|app: 0|req: 1/1] 83.9.140.85 () {36 vars in 655 bytes} [Mon Nov 24 00:39:52 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 10029|app: 0|req: 2/2] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:39:53 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 10029|app: 0|req: 3/3] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:39:54 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 10029|app: 0|req: 4/4] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:39:57 2014] POST /~jereczem/apps/CW3/logged/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 189 bytes (1 switches on core 1)
+[pid: 10029|app: 0|req: 5/5] 83.9.140.85 () {48 vars in 1008 bytes} [Mon Nov 24 00:40:01 2014] POST /~jereczem/apps/CW3/logged/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 198 bytes (1 switches on core 0)
+[pid: 10029|app: 0|req: 6/6] 83.9.140.85 () {48 vars in 1017 bytes} [Mon Nov 24 00:40:06 2014] POST /~jereczem/apps/CW3/logged/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 200 bytes (1 switches on core 2)
+[pid: 10029|app: 0|req: 7/7] 83.9.140.85 () {48 vars in 1019 bytes} [Mon Nov 24 00:40:10 2014] POST /~jereczem/apps/CW3/logged/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 190 bytes (1 switches on core 3)
+[pid: 10029|app: 0|req: 8/8] 83.9.140.85 () {48 vars in 1009 bytes} [Mon Nov 24 00:40:15 2014] POST /~jereczem/apps/CW3/logged/ => generated 853 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 190 bytes (1 switches on core 1)
+[pid: 10029|app: 0|req: 9/9] 83.9.140.85 () {48 vars in 1009 bytes} [Mon Nov 24 00:40:16 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 10029|app: 0|req: 10/10] 83.9.140.85 () {48 vars in 1005 bytes} [Mon Nov 24 00:40:17 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 2)
+[pid: 10029|app: 0|req: 11/11] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:40:19 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 3)
+[pid: 10029|app: 0|req: 12/12] 83.9.140.85 () {48 vars in 1009 bytes} [Mon Nov 24 00:40:20 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 10029|app: 0|req: 13/13] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:40:24 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 10029|app: 0|req: 14/14] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:40:32 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 10029|app: 0|req: 15/15] 83.9.140.85 () {38 vars in 761 bytes} [Mon Nov 24 00:42:07 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 10029|app: 0|req: 16/16] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:42:26 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 10029|app: 0|req: 17/17] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:44:02 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 10029|app: 0|req: 18/18] 83.9.140.85 () {42 vars in 853 bytes} [Mon Nov 24 00:44:03 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (CGI mode) (64bit) on [Mon Nov 24 00:45:31 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/ee/stud/jereczem/www/CW3
+writing pidfile to /home/ee/stud/jereczem/www/CW3/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your memory page size is 4096 bytes
+allocated 3904 bytes (3 KB) for 4 cores per worker.
+uwsgi socket 0 bound to UNIX address /home/ee/stud/jereczem/www/CW3/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1916120
+threads support enabled
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: threaded ***
+WSGI application 0 (mountpoint='') ready on interpreter 0x1916120 pid: 11510 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11510)
+spawned uWSGI worker 1 (pid: 11515, cores: 4)
+[pid: 11515|app: 0|req: 1/1] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:45:36 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 2/2] 83.9.140.85 () {48 vars in 1014 bytes} [Mon Nov 24 00:45:39 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 3/3] 83.9.140.85 () {36 vars in 669 bytes} [Mon Nov 24 00:45:53 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 4/4] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:03 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 5/5] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:33 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 6/6] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:34 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 7/7] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:35 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 8/8] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:36 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 9/9] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:37 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 10/10] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:37 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 11/11] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:38 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 12/12] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:38 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 13/13] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:39 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 14/14] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:39 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 15/15] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:40 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 16/16] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:46:41 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 17/17] 83.9.140.85 () {48 vars in 1023 bytes} [Mon Nov 24 00:46:45 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 18/18] 83.9.140.85 () {38 vars in 730 bytes} [Mon Nov 24 00:47:02 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 19/19] 83.9.140.85 () {38 vars in 730 bytes} [Mon Nov 24 00:47:32 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 20/20] 83.9.140.85 () {38 vars in 730 bytes} [Mon Nov 24 00:47:48 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 21/21] 83.9.140.85 () {38 vars in 730 bytes} [Mon Nov 24 00:47:52 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 22/22] 83.9.140.85 () {38 vars in 730 bytes} [Mon Nov 24 00:48:02 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 23/23] 83.9.140.85 () {38 vars in 730 bytes} [Mon Nov 24 00:49:15 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 24/24] 83.9.140.85 () {46 vars in 922 bytes} [Mon Nov 24 00:49:31 2014] POST /~jereczem/apps/CW3/logged/ => generated 736 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 206 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 25/25] 83.9.140.85 () {40 vars in 822 bytes} [Mon Nov 24 00:51:52 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 26/26] 83.9.140.85 () {48 vars in 998 bytes} [Mon Nov 24 00:51:56 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 27/27] 83.9.140.85 () {46 vars in 908 bytes} [Mon Nov 24 00:52:01 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 28/28] 94.254.128.37 () {40 vars in 905 bytes} [Mon Nov 24 09:33:45 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 29/29] 94.254.128.37 () {48 vars in 1097 bytes} [Mon Nov 24 09:33:48 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 30/30] 94.254.128.37 () {40 vars in 998 bytes} [Mon Nov 24 09:34:05 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 31/31] 94.254.128.37 () {40 vars in 998 bytes} [Mon Nov 24 09:34:28 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 32/32] 94.254.129.187 () {40 vars in 906 bytes} [Mon Nov 24 12:01:12 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 33/33] 94.254.129.187 () {48 vars in 1098 bytes} [Mon Nov 24 12:01:19 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 34/34] 94.254.129.187 () {48 vars in 1182 bytes} [Mon Nov 24 12:01:21 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 35/35] 94.254.128.40 () {40 vars in 904 bytes} [Mon Nov 24 12:21:50 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 36/36] 94.254.128.40 () {48 vars in 1096 bytes} [Mon Nov 24 12:22:02 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 37/37] 94.254.128.40 () {48 vars in 1180 bytes} [Mon Nov 24 12:22:13 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 38/38] 94.254.128.40 () {48 vars in 1096 bytes} [Mon Nov 24 12:22:29 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 39/39] 94.254.128.40 () {40 vars in 997 bytes} [Mon Nov 24 12:23:40 2014] GET /~jereczem/apps/CW3/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 40/40] 194.29.146.4 () {38 vars in 717 bytes} [Mon Nov 24 14:19:25 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 2)
+[pid: 11515|app: 0|req: 41/41] 194.29.146.4 () {46 vars in 909 bytes} [Mon Nov 24 14:19:33 2014] POST /~jereczem/apps/CW3/logged/ => generated 734 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 202 bytes (1 switches on core 0)
+[pid: 11515|app: 0|req: 42/42] 194.29.146.4 () {48 vars in 1006 bytes} [Mon Nov 24 14:19:35 2014] POST /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 11515|app: 0|req: 43/43] 194.29.146.4 () {38 vars in 717 bytes} [Mon Nov 24 14:20:33 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 3)
+[pid: 11515|app: 0|req: 44/44] 66.249.81.215 () {34 vars in 562 bytes} [Mon Nov 24 14:21:02 2014] GET /~jereczem/apps/CW3/ => generated 853 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 2)

@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    background-image: url("bg.png");
+    background-color: #cccccc;
+}
+
+p {
+    text-align: justify;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #bababa;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #bababa;
+}
+
+.menu h2:hover {
+    background-color: rgba(73, 135, 153, 0.96);
+}
+
+.basic a {
+    text-decoration: none;
+    color: #bababa;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bababa;
+    background-color: rgba(43, 39, 42, 0.68);
+    border: 2px solid #bababa;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #bababa;
+    background-color: rgba(43, 39, 42, 0.68);
+    border: 2px solid #bababa;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    color: #bababa;
+}
+
+.menu {
+    background-color: rgba(56, 98, 112, 0.60);
+    position: fixed;
+    min-width: 200px;
+    margin-right: 80%;
+    margin-left: 1%;
+    border: 2px solid #58564e;
+}
+
+.omnie {
+    background-color: rgba(56, 98, 112, 0.60);
+    margin-left: 81%;
+    margin-right: 5%;
+    min-width: 200px;
+    position: fixed;
+    border: 2px solid #58564e;
+}
+
+.basic {
+    min-width: 512px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(56, 98, 112, 0.60);
+    margin-bottom: 8px;
+    border: 2px solid #58564e;
+    position: absolute;
+}
+
+.basic table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #bababa;
+    border: 2px solid #58564e;
+    background-color: rgba(35, 60, 70, 0.76);
+}
+
+.basic input {
+    max-width: 80%;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #bababa;
+    background-color: #595c5e;
+    font-family: 'Berkshire Swash', Helvetica, Sans-serif;
+}
+
+.basic img {
+    width: 100%;
+}
+
+.basic object {
+    width: 90%;
+    height: 400px;
+}
+
+.form p {
+    text-align: center;
+    margin-left: 48px;
+    margin-right: 48px;
+    text-shadow: 0 0 10px #000000;
+    color: #e39390;
+}

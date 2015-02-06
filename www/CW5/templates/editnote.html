@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<link rel="stylesheet" href="http://len.iem.pw.edu.pl/~jereczem/CW5/templates/style.css"/>
+
+<form method="post" action="http://len.iem.pw.edu.pl/~jereczem/apps/noteapp/edit_note/{{note_id}}">
+    <div class="newnote2">
+        <div class="label">
+    <label for="receiver">Kategoria:</label>
+    <input type="text" name="category" value={{category}}><br/></div>
+        <div class="label">
+    <label for="title">Etykiety:</label>
+    <input type="text" name="labels" value={{labels}}><br/></div>
+            <div class="label">
+    <label for="content">Treść:</label>
+    <input type="text" name="note_text" value={{note_text}}><br/></div>
+                <div class="label">
+    <input type="submit"/></h3></div>
+    </div>
+</form>
+</body>
+</html>

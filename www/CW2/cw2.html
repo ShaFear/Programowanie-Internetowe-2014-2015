@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>"Ćwiczenie 2 - Formularz + Js"</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<div class="menu">
+    <h2><a href="../index.html">Strona główna</a></h2>
+</div>
+
+<div class="basic" id="basic">
+    <div class="form">
+        <form action="http://len.iem.pw.edu.pl/staff/~chaberb/apps/register/user/" method="POST" id="action">
+            <h1>FORMULARZ</h1>
+
+            <div id="nameDiv">
+                <h2>Imię</h2>
+                <input type="text" name="firstname" id="name">
+            </div>
+
+            <div id="surnameDiv">
+                <h2>Nazwisko</h2>
+                <input type="text" name="lastname" id="surname">
+            </div>
+
+            <div id="pass1Div">
+                <h2>Hasło</h2>
+                <input type="password" name="password" id="pass1">
+            </div>
+
+            <div id="pass2Div">
+                <h2>Powtórz hasło</h2>
+                <input type="password" id="pass2">
+            </div>
+
+            <div id="dateDiv">
+                <h2>Data urodzenia</h2>
+                <input type="date" name="birthdate" id="date">
+            </div>
+
+            <div id="loginDiv">
+                <h2>Login</h2>
+                <input type="text" name="login" id="login">
+            </div>
+
+            <div id="peselDiv">
+                <h2>PESEL</h2>
+                <input type="text" name="pesel" id="pesel">
+            </div>
+
+            <div id="sexDiv">
+                <h2>Płeć</h2>
+
+                <h3><input type="radio" name="sex" id="girl" value="female"> kobieta</h3>
+
+                <h3><input type="radio" name="sex" id="boy" value="male"> mężczyzna</h3>
+            </div>
+            <div id="avatarDiv">
+                <h2>Avatar</h2>
+                <input type="file" name="photo" id="avatar" accept="image/*">
+            </div>
+
+            <div id="submitDiv">
+
+                <h2>Prześlij formularz</h2> <input type="submit" name="submit" id="submit">
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="javascript.js" type="text/javascript"></script>
+</body>
+</html>
